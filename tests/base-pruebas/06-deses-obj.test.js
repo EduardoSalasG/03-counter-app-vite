@@ -8,10 +8,10 @@ describe('Pruebas en 06-deses-obj', () => {
 
         const edad = 5;
 
-        const context = usContext(clave, edad);
-        console.log(clave, edad)
+        const user = usContext({ clave, edad });
+        console.log(user)
 
-        expect(context).toStrictEqual({
+        expect(user).toStrictEqual({
             nombreClave: clave,
             anios: edad,
             latlng: {
