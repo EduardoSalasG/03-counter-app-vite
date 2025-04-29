@@ -10,6 +10,7 @@ import './styles.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
     <StrictMode>
     <CounterApp value={4}/>
+    <FirstApp/>
         {/* <HelloWorldApp></HelloWorldApp> */}
     </StrictMode>
 )
